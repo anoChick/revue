@@ -1,0 +1,23 @@
+{
+  "name": "revue",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vue-template-compiler": "^2.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoChick/revue.git"
+  },
+  "author": "anoChick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anoChick/revue/issues"
+  },
+  "homepage": "https://github.com/anoChick/revue#readme"
+}
