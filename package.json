@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@vue/web-component-wrapper": "^1.2.0"
+  },
   "devDependencies": {
     "@vue/cli-service": "^3.2.2",
     "vue-template-compiler": "^2.5.21"
