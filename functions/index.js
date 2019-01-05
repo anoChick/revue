@@ -17,3 +17,8 @@ exports.createUser = functions.auth.user().onCreate((userRecord, context) => {
     displayName: userRecord.displayName
   })
 })
+
+exports.setCreationTime = functions.firestore.document('subjects/{subjectId}/reviews/{reviewId}').onCreate((snap, context) => {
+  const review = snap.data()
+  return snap.ref.set(Object.assign(review, {createdAt: new Date()}))
+})
